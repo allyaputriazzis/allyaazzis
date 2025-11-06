@@ -1,0 +1,197 @@
+body {
+  font-family: "Didact Gothic", sans-serif;
+  background: linear-gradient(rgba(22, 20, 20, 1), #1b1a19ff);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #1b1b1b;
+  color: #f3EDE4;
+  text-align: center;
+  padding: 10px 10px;
+  border-bottom: 2px solid #1b1b1b;
+  scroll-margin-top: 80px; /* sesuaikan tinggi navbar kamu */
+}
+
+header h1 {
+  font-family: "Bodoni Moda", serif;
+  letter-spacing: 1px;
+  font-size: 48px;
+  text-shadow: 3px 3px 5px rgb(211,208,208);
+  color: #f3EDE4;
+  line-height: 18px;
+}
+
+.subheader {
+  font-family: 'Great Vibes', serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-top: 5px;   
+}
+
+/* ===== NAVIGASI ===== */
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  color: #a35851ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-family: 'Great Vibes', serif;
+  font-size: 22px;
+  transition: color 0.3s;
+  padding: 6px 12px;
+  border-radius: 16px;
+}
+
+nav a:link {
+  color: #a35851ff;
+}
+
+nav a:visited {
+  color: gray;
+}
+
+nav a:hover {
+  background-color: #E9B2AB;
+  color: #fff;
+}
+
+.about-section {
+    margin: 40px auto;
+    padding: 40px;
+    width: 80%;
+    background-color:#461e17;
+    outline: 3px dashed #f8f6e7;
+    border: 5px solid #a35851ff;
+    border-radius: 10px;
+    text-align:center;
+    box-shadow: 0 0 25px rgba(234, 218, 189, 0.4), inset 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Gossip Girl Birthday Invitation Style ===== */
+.party-zone {
+  background: linear-gradient(to bottom right, #000000, #2c2c2c);
+  color: #f5e6cc;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 80px 20px;
+  border-top: 2px solid #AEB081;
+  border-bottom: 2px solid #AEB081;
+}
+
+.zone-title {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8C8A45;
+  text-shadow: 2px 2px 8px rgba(255, 215, 150, 0.5);
+  margin-bottom: 10px;
+}
+
+.zone-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #d8c3a5;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.info-card {
+  background: #461e17;
+  border: 1px solid #f3d8ce;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 215, 150, 0.1);
+  width: 300px;
+  padding: 25px;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(255, 215, 150, 0.4);
+}
+
+.info-card h3 {
+  color: #795d4c;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-card p,
+.info-card ul {
+  font-family: "Poppins", sans-serif;
+  color: #f1e3c4;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.info-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-card li {
+  margin: 8px 0;
+}
+
+.org-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.org-card {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid rgba(255, 215, 150, 0.2);
+  transition: all 0.3s ease;
+}
+
+.org-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.org-card h4 {
+  font-size: 1rem;
+  color: #AEB081;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.org-card p {
+  font-size: 0.9rem;
+  color: #fff4d1;
+  font-style: italic;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-card {
+    width: 90%;
+  }
+}
