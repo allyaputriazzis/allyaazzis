@@ -39,15 +39,31 @@ header h1 {
 /* ===== NAVIGASI ===== */
 nav {
   margin-top: 25px;
+  display: flex;
+  justify-content: center; /* biar menu di tengah */
+  align-items: center;
+  padding: 15px 0;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 30px;
   margin: 0;
   padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+/* biar aktif di halaman tertentu */
+nav ul li a.active {
+  font-weight: bold;
 }
 nav a {
   color: #a35851ff;
@@ -566,4 +582,5 @@ html {
     font-size: 18px;
   }
 }
+
 
