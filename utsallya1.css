@@ -59,6 +59,7 @@ nav ul li a {
   font-weight: bold;
   font-size: 18px;
   transition: color 0.3s ease;
+  display: none;
 }
 /* biar aktif di halaman tertentu */
 nav ul li a.active {
@@ -583,3 +584,4 @@ html {
     font-size: 18px;
   }
 }
+
