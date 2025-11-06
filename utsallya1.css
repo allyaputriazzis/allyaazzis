@@ -344,7 +344,7 @@ body#rsvp main {
 #rsvp h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2.2rem;
-  color: #C49A6C !important;
+  color: #f3EDE4; !important;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
@@ -583,6 +583,7 @@ html {
     font-size: 18px;
   }
 }
+
 
 
 
