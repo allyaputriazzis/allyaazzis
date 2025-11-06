@@ -68,7 +68,7 @@ nav a {
   color: #a35851ff;
   text-decoration: none;
   margin: 0 15px;
-  font-weight: 300px;
+  font-weight: 500px;
   font-family: 'Great Vibes', serif;
   font-size: 25px;
   transition: color 0.3s;
@@ -583,6 +583,7 @@ html {
     font-size: 18px;
   }
 }
+
 
 
 
