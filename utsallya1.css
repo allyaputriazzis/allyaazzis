@@ -41,6 +41,14 @@ nav {
   margin-top: 25px;
 }
 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
 nav a {
   color: #a35851ff;
   text-decoration: none;
@@ -51,6 +59,16 @@ nav a {
   transition: color 0.3s;
   padding: 6px 12px;
   border-radius: 16px;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.3s ease;
 }
 
 nav a:link {
@@ -548,3 +566,4 @@ html {
     font-size: 18px;
   }
 }
+
