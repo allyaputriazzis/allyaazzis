@@ -82,7 +82,7 @@ nav a::after {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: -4px;
+  bottom: -8px;
   left: 0;
   transition: width 0.3s ease;
 }
@@ -584,4 +584,5 @@ html {
     font-size: 18px;
   }
 }
+
 
