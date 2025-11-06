@@ -324,8 +324,8 @@ body#rsvp main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  width: auto;
+  min-height: 200px;
+  width: 300px;
 }
 
 .rsvp-container {
@@ -583,6 +583,7 @@ html {
     font-size: 18px;
   }
 }
+
 
 
 
