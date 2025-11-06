@@ -60,7 +60,6 @@ nav ul li a {
   font-size: 16px;
   transition: color 0.3s ease;
 }
-
 /* biar aktif di halaman tertentu */
 nav ul li a.active {
   font-weight: bold;
@@ -394,7 +393,7 @@ textarea {
   background: #fff;
   color: hsl(0, 0%, 11%);
   border: none;
-  padding: 12px;
+  padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 12px;
@@ -402,6 +401,7 @@ textarea {
   transition: all 0.3s ease;
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.5px;
+  z-index: 1;
 }
 
 #rsvp button:hover {
@@ -583,6 +583,7 @@ html {
     font-size: 18px;
   }
 }
+
 
 
 
